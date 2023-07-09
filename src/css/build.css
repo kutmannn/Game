@@ -1,0 +1,56 @@
+.build{
+    padding: 190px 0 10px;
+}
+.build__row{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.build__left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.build__title{
+    font-family: 'Alegreya' ,serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+}
+.build__subtitle{
+    font-family: 'Cabin', sans-serif;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.build__button{
+    transition: .3s;
+    padding: 15px 16px;
+    background: rgba(151, 191, 3, 0.3);
+    border: 1px solid #AADE00;
+}
+.build__button:hover{
+    background: #97BF03;
+    transition: .5s;
+}
+.swiper-slide {
+    height: 460px;
+    height: 350px;
+}
+.build__card{
+    height: 350px;
+    transform: skew(-30deg);
+    overflow: hidden;
+    position: relative;
+}
+
+.card__image{
+    transform: skew(-35deg);
+    width: 100%;
+}
+/*.swiper-slide:nth-child(2n) {*/
+/*    width: 60%;*/
+/*}*/
+
+/*.swiper-slide:nth-child(3n) {*/
+/*    width: 40%;*/
+/*}*/
